@@ -12,17 +12,17 @@ Auth: Token-based (JWT), minimal
 Goal: Clean, functional implementation
 
 
-Requirements
+**Requirements**
 
 Docker & Docker Compose
 Node.js
 npm
 
 
-Backend – Run
-cd backend
-docker compose up --build
+**Backend – Run**
+ 
 
+ - docker compose up --build
 
 Backend available at:
 
@@ -33,26 +33,25 @@ API documentation:
 
 http://localhost:8000/docs
 
-Frontend – Run
-cd frontend
-npm install
-npm run dev
+**Frontend – Run**
 
+ - cd frontend
+ - npm install
+ - npm run dev
 
 Frontend available at:
 
 http://localhost:5173
 
 
-Integration Tests
+**Integration Tests**
 
 Integration tests validate API behavior against the database.
 Run tests inside the backend container:
 
-docker compose run backend pytest
+ - docker compose run backend pytest
 
-
-Tests cover:
+**Tests cover:**
 
 CRUD operations
 
@@ -62,7 +61,7 @@ Error cases and validation
 
 
 
-Features
+**Features**
 
 Register / Login
 User account (view & update)
@@ -76,7 +75,7 @@ Basic validation & error handling
 
 
 
-Business Rules & Assumptions
+**Business Rules & Assumptions**
 
 The following decisions were made to keep the MVP simple and explicit:
 
