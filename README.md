@@ -63,17 +63,16 @@ Error cases and validation
 
 **Features**
 
-Register / Login
-User account (view & update)
-Organisations with sub-organisations
-Vehicles assigned to organisations
-Drivers assigned to organisations
-Assign / end driver to vehicle assignments
-Assign / end   vehicle to driver assignments
-Server-controlled assignment dates
-Basic validation & error handling
 
-
+ - Register / Login
+ - User account (view & update)
+ - Organisations with sub-organisations
+ - Vehicles assigned to organisations
+ - Drivers assigned to organisations
+ - Assign / end driver to vehicle assignments
+ - Assign / end   vehicle to driver assignments
+ - Server-controlled assignment dates
+ - Basic validation & error handling
 
 **Business Rules & Assumptions**
 
