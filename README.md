@@ -1,3 +1,4 @@
+
 Fleetcore – MVP
 
 This repository contains a simple MVP for managing organisations, vehicles, drivers, and assignments.
@@ -80,12 +81,13 @@ Business Rules & Assumptions
 The following decisions were made to keep the MVP simple and explicit:
 
 An organisation can have sub-organisations (one level of hierarchy)
-A sub-organisation cannot have its own children
-Vehicles and drivers always belong to one organisation
-Drivers can only be assigned to vehicles within the same organisation
-A vehicle can have only one active driver at a time
-An assignment is considered active when end_date is NULL
-Assignment start_date and end_date are fully controlled by the server
-Authentication is stateless (JWT); no sessions.
-No pagination implemented
-Minimal UI
+
+ - A sub-organisation cannot have its own children
+ - Vehicles and drivers always belong to one organisation
+ - Drivers can only be assigned to vehicles within the same organisation
+ - A vehicle can have only one active driver at a time
+ - An assignment is considered active when end_date is NULL
+ - Assignment start_date and end_date are fully controlled by the server
+ - Authentication is stateless (JWT); no sessions.
+ - No pagination implemented
+ - Minimal UI
