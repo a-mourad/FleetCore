@@ -1,0 +1,84 @@
+/* ---------- Global reset ---------- */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 24px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+  background-color: #f8f9fb;
+  color: #222;
+}
+
+/* ---------- Layout ---------- */
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+/* ---------- Headings ---------- */
+h2, h3 {
+  margin-top: 24px;
+  margin-bottom: 12px;
+}
+
+/* ---------- Forms ---------- */
+input,
+select,
+button {
+  padding: 8px 10px;
+  margin: 6px 0;
+  font-size: 14px;
+}
+
+input,
+select {
+  width: 250px;
+}
+
+button {
+  cursor: pointer;
+  border: 1px solid #ccc;
+  background-color: #fff;
+}
+
+button:hover {
+  background-color: #f0f0f0;
+}
+
+button + button {
+  margin-left: 8px;
+}
+
+/* ---------- Tables ---------- */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 12px;
+  background-color: #fff;
+}
+
+th,
+td {
+  text-align: left;
+  padding: 8px;
+  border: 1px solid #ddd;
+}
+
+th {
+  background-color: #f1f3f6;
+}
+
+/* ---------- Errors ---------- */
+.error {
+  color: #c0392b;
+  margin: 8px 0;
+}
+
+/* ---------- Sections ---------- */
+.section {
+  margin-top: 24px;
+  padding-top: 16px;
+  border-top: 1px solid #ddd;
+}
